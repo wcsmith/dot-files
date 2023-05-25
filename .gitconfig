@@ -1,0 +1,30 @@
+[user]
+    name = Connor Smith
+    email = wconnorsmith@gmail.com
+
+[color]
+    ui = auto
+
+[alias]
+    a = add
+    ci = commit
+    co = checkout
+    d = diff
+    de = difftool --tool=ediffclient
+    dno = diff --name-only
+    br = branch
+    f = fetch
+    lg = log --branches --tags --graph --oneline --decorate
+    rh = reset --hard
+    st = status
+    ui = auto
+
+[pull]
+    ff = only
+    rebase = true
+
+[push]
+    default = simple
+
+[difftool "ediffclient"]
+    cmd = emacsclient --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
