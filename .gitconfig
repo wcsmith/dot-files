@@ -2,6 +2,9 @@
     name = Connor Smith
     email = wconnorsmith@gmail.com
 
+[core]
+    editor = emacsclient
+
 [color]
     ui = auto
 
