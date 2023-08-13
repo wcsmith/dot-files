@@ -31,3 +31,6 @@
 
 [difftool "ediffclient"]
     cmd = emacsclient --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+
+[include]
+    path = .gitconfig.local
