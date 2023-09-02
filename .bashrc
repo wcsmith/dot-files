@@ -39,6 +39,7 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 PS1='[${debian_chroot:+($debian_chroot)}\u@\h:\w]\n\$ '
+PS1=$PS1'\[$(vterm_prompt_end)\]'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
