@@ -16,4 +16,5 @@ brew install \
     libvterm
 
 brew install --cask \
+    contexts \
     iterm2
