@@ -2,7 +2,7 @@
   :after evil
 
   :general
-  (:states 'normal
+  (:states '(normal visual visual-line)
    "go" 'evilmi-jump-items)
 
   :config
