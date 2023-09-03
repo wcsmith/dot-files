@@ -14,3 +14,6 @@ brew install \
     git-lfs \
     libtool \
     libvterm
+
+brew install --cask \
+    iterm2
