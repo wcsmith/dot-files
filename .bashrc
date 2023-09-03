@@ -41,6 +41,8 @@ fi
 PS1='[${debian_chroot:+($debian_chroot)}\u@\h:\w]\n\$ '
 PS1=$PS1'\[$(vterm_prompt_end)\]'
 
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }"'echo -ne "\033]0;${HOSTNAME}:${PWD}\007"'
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"

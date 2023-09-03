@@ -4,6 +4,7 @@
 
   :custom
   (vterm-always-compile-module t)
+  (vterm-buffer-name-string "*vterm* [%s]")
 
   :config
   (defun my-vterm-mode-hook ()
