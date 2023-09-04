@@ -1,3 +1,6 @@
+[include]
+    path = .gitconfig.local
+
 [user]
     name = Connor Smith
     email = wconnorsmith@gmail.com
@@ -31,6 +34,3 @@
 
 [difftool "ediffclient"]
     cmd = emacsclient --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
-
-[include]
-    path = .gitconfig.local
