@@ -1,4 +1,5 @@
 (use-package windows
+  :demand t
   :straight nil
 
   :general
