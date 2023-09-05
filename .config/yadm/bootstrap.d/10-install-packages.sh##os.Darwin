@@ -8,6 +8,7 @@ fi
 echo "Installing packages"
 
 brew install \
+    bash-completion \
     cmake \
     emacs \
     git \
