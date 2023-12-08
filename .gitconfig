@@ -1,6 +1,3 @@
-[include]
-    path = .gitconfig.local
-
 [user]
     name = Connor Smith
     email = wconnorsmith@gmail.com
@@ -34,3 +31,11 @@
 
 [difftool "ediffclient"]
     cmd = emacsclient --eval \"(ediff-files \\\"$LOCAL\\\" \\\"$REMOTE\\\")\"
+
+[include]
+    path = .gitconfig.local
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
