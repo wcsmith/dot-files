@@ -1,4 +1,4 @@
-(use-package windows
+(use-package window-functions
   :demand t
   :straight nil
 

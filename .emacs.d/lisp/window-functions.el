@@ -1,4 +1,4 @@
-;; Utilities for window and buffers.
+;; Functions for window and buffers.
 
 (defun delete-other-windows-vertically-first ()
   "Deletes other windows vertically if they exist; otherwise deletes
@@ -49,4 +49,4 @@ all other windows."
   (save-buffer)
   (server-edit-or-kill-buffer))
 
-(provide 'windows)
+(provide 'window-functions)
