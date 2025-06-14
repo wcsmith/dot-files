@@ -25,6 +25,7 @@
  ("ido-vertical-mode.el" . "b1659e967da0687abceca733b389ace24004fa66")
  ("itail" . "6e43c20da03be3b9c6ece93b7dc3495975ec1888")
  ("key-chord" . "fc75b1451759121601110da8ddfadcf5156318af")
+ ("markdown-mode" . "7c20685df615469132763add897c1ca37cbe07e4")
  ("melpa" . "66011b5520df38daf9ba775c3ad80ba779f8835e")
  ("multi-vterm" . "36746d85870dac5aaee6b9af4aa1c3c0ef21a905")
  ("nongnu-elpa" . "bcdbd55cafa7b1acb354a8a2e0fb9514c220ed6f")
